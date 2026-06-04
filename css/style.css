@@ -221,7 +221,7 @@ header .menu nav ul li a{
 }
 
 /* skills */
-.skills{
+.skill{
     background-color: gainsboro;
     margin : 50px 0px;
      width: 100%;
@@ -230,51 +230,111 @@ header .menu nav ul li a{
 
 .skill1{
     width: 50%;
-    /* text-align: left; */
     float: left;
-    padding: 100px 40px;
+    padding: 100px 0px;
+    /* padding: 100px 40px; */
 }
 
 .skill1 h2 {
-    margin: 40px;
-    font-size: 35px;
+    padding: 8px 40px;
+    font-size: 30px;
 }
 
 .skill1 p{
-    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 0px 40px;
 }
 
 .skill2{
-    /* display: flex; */
     width: 50%;
     float: right;
-    text-align: right;
-    padding: 10px 40px;
+    /* text-align: left; */
+    padding: 10px 30px;
 
+}
+.skill2 .fa-solid{
+    padding: 10px;
 }
 
 .skill2 h3 {
-    font-size: 18px;
+    letter-spacing: 4px;
+    font-size: 14px;
     font-weight: normal;
     /* margin-bottom: 8px; */
 }
 
 .photo {
-    width: 50%;
-    height: 35px;
+    height: 30px;
     background-color: #bfbfbf;
-    margin: 25px;
+    margin: 20px;
 }
 
 .photo .progress-fill {
        height: 100%;
     background: #666;
     color: white;
-    align-items: center ;
-    /* justify-content: center; */
+    text-align: center;
 }
 
 /* PRICINGsection */
+.Pricing{
+    padding: 128px 16x;
+    background-color: #616161;
+}
+
+.price{
+    width: 100%;
+    padding: 14px 40px;
+    text-align: center;
+}
+
+.price h2 p{
+    font-size: 14px;
+}
+
+.list{
+    width: 30%;
+    /* background-color: #fff; */
+    padding: 20px 0px;
+    float: left;
+    border: 2px solid black;
+}
+
+.list ul li{
+    padding: 10px 0px;
+}
+
+.basic{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.list1{
+    width: 30%;
+    /* background-color: #fff; */
+    padding: 20px 0px;
+    float: left;
+    border: 2px solid black;
+}
+
+.list1 ul li{
+    padding: 10px 0px;
+}
+
+.list2{
+    width: 30%;
+    /* background-color: #fff; */
+    padding: 20px 0px;
+    float: left;
+    border: 2px solid black;
+}
+
+.list2 ul li{
+    padding: 10px 0px;
+}
+
+
 
 
 
