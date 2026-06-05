@@ -151,15 +151,15 @@ header .menu nav ul li a{
 
 /* team */
 .team{
-     width: 100%;
+     width: 90%;
     text-align: center;
 }
 
 .team1{
     display: flex;
-    margin: 40px 40px;
+    margin: 30px 40px;
     gap: 6px;
-    
+    width: 90%;
 }
 
 .team1 .img{
@@ -432,10 +432,12 @@ header .menu nav ul li a{
 /* contact section */
 .contact{
     padding: 100px 0px;
+    background-color: #f1f1f1;
 }
 
 .content{
-    padding: 80px;
+    padding: 80px 0px;
+    width: 100%;
 }
 
 .content h2{
@@ -447,12 +449,12 @@ header .menu nav ul li a{
 .content p{
     width: 100%;
     text-align: center;
-    padding-bottom: 10px;
+    padding : 10px;
 }
 
 .icon p{
-    text-align: left ;
-    padding: 10px 0px;
+    padding :10px;
+    text-align: left;
 }
 
 .icon .fa-solid{
@@ -461,11 +463,16 @@ header .menu nav ul li a{
 
 .item{
     width: 100%;
-    padding: 8px 0px;
+    padding-left: 10px;
 }
 
+.item p{
+    text-align: left;
+    size: 14px;
+}
 .name{
     width: 100%;
+    text-align: left ;
     border: 2px solid grey;
 }
 
@@ -492,13 +499,23 @@ header .menu nav ul li a{
 
 /* image */
 .ig{
-    width: 100%;
-    height: auto;
+    padding:30px 20px;
 }
 
+/* footer */
 .footer{
     background-color: #120f0f;
-    padding: auto;
+    padding: 60px;
+    color: white;
+    text-align: center;
+}
+
+.bn{
+    padding: 10px;
+}
+
+.ic{
+    padding: 10px;
 }
 
 
