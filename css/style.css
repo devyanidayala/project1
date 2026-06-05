@@ -451,7 +451,6 @@ header .menu nav ul li a{
 }
 
 .icon p{
-    width: 100%;
     text-align: left ;
     padding: 10px 0px;
 }
@@ -460,12 +459,47 @@ header .menu nav ul li a{
    padding-right: 30px;
 }
 
-.border{
-    text-align: left ;
+.item{
+    width: 100%;
+    padding: 8px 0px;
 }
 
+.name{
+    width: 100%;
+    border: 2px solid grey;
+}
 
+.email{
+    width: 100%;
+    border: 2px solid grey;
+}
 
+.subject{
+    width: 100%;
+    border: 2px solid grey;
+}
+
+.phone{
+    width: 100%;
+    border: 2px solid grey;
+}
+
+.bt button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/* image */
+.ig{
+    width: 100%;
+    height: auto;
+}
+
+.footer{
+    background-color: #120f0f;
+    padding: auto;
+}
 
 
 
