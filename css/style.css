@@ -151,14 +151,13 @@ header .menu nav ul li a{
 
 /* team */
 .team{
-     width: 90%;
+     width: 100%;
     text-align: center;
 }
 
 .team1{
     display: flex;
-    margin: 30px 40px;
-    gap: 6px;
+    margin: 40px 40px;
     width: 90%;
 }
 
@@ -166,7 +165,6 @@ header .menu nav ul li a{
     text-align: left;
     margin: 8px;
     border: 2px solid #888888;
-    /* box-shadow: #333; */
     box-sizing: border-box;
     box-shadow: 1px 1px #888888;
 }
@@ -261,10 +259,6 @@ header .menu nav ul li a{
 }
 
 .work1{
-    padding: 0px 0px;
-}
-
-.work .work1{
      display: flex;
     float: right;
     margin: 2px;
@@ -291,15 +285,16 @@ header .menu nav ul li a{
 }
 
 .skill1 p{
-    font-size: 14px;
+    font-size: 18px;
     padding: 0px 40px;
+
 }
 
 .skill2{
     width: 50%;
     float: right;
-    /* text-align: left; */
-    padding: 10px 30px;
+    padding: 51px 10px;
+
 
 }
 .skill2 .fa-solid{
