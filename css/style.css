@@ -86,6 +86,8 @@ header .menu nav ul li a{
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .about-content1 {
@@ -93,6 +95,8 @@ header .menu nav ul li a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 20px;
+
 }
 
 .about-content1 .fa-solid {
@@ -155,9 +159,14 @@ header .menu nav ul li a{
     text-align: center;
 }
 
+.team p{
+        margin-top: 10px;
+
+}
+
 .team1{
     display: flex;
-    margin: 40px 40px;
+    margin: 40px 70px;
     width: 90%;
 }
 
@@ -181,7 +190,6 @@ header .menu nav ul li a{
     text-align: left;
     margin: 8px;
     border: 2px solid #888888;
-    /* box-shadow: #333; */
     box-sizing: border-box;
     box-shadow: 1px 1px #767676;
 }
@@ -190,13 +198,11 @@ header .menu nav ul li a{
     text-align: left;
     margin: 8px;
     border: 2px solid #888888;
-    /* box-shadow: #333; */
     box-sizing: border-box;
     box-shadow: 1px 1px #888888;
 }
 
 .team1 h2 {
-    /* margin: 10px; */
         padding-left: 10px;
     padding-bottom: 20px;
     padding-top: 10px;
@@ -242,15 +248,18 @@ header .menu nav ul li a{
 }
 
 /* work */
+.wo{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
 .work{
      width: 100%;
     text-align: center;
-    gap:10px
-    /* margin: 50px 0px; */
 }
 
 .work h2{
-    /* margin: 20px 10px; */
     font-size: 30px;
 }
 
@@ -259,9 +268,10 @@ header .menu nav ul li a{
 }
 
 .work1{
-     display: flex;
+    display: flex;
     float: right;
-    margin: 2px;
+    margin: 10px;
+    padding: 0px 10px;
 }
 
 /* skills */
@@ -298,14 +308,13 @@ header .menu nav ul li a{
 
 }
 .skill2 .fa-solid{
-    padding: 10px;
+    padding: 0px 10px;
 }
 
-.skill2 h3 {
+.skill2 ul li h3 {
     letter-spacing: 4px;
     font-size: 14px;
     font-weight: normal;
-    /* margin-bottom: 8px; */
 }
 
 .photo {
